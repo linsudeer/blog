@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[script之defer&async]]></title>
+    <url>%2F2017%2F08%2F17%2Fscript%E4%B9%8Bdefer%26async%2F</url>
+    <content type="text"><![CDATA[目前firefox和chrome都是实现了script标签的async属性.这个新的属性能让我们以一种更 简单的方式防止浏览器阻塞,在这之前我们需要用一些javascript小窍门来解决这个问题。 没有 defer 或 async，浏览器会立即加载并执行指定的脚本，“立即”指的是在渲染该 script 标签之下的文档元素之前，也就是说不等待后续载入的文档元素，读到就加载并执行。 有 async，加载和渲染后续文档元素的过程将和 script.js 的加载与执行并行进行（异步）。 有 defer，加载后续文档元素的过程将和 script.js 的加载并行进行（异步），但是 script.js 的执行要在所有元素解析完成之后，DOMContentLoaded 事件触发之前完成。]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
+    <content type="text"></content>
+  </entry>
+</search>
